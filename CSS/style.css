@@ -1,0 +1,65 @@
+*{
+    font-family:'Times New Roman', Times, serif;
+    padding:0;
+    margin:0;
+}
+
+body{
+     display:flex;
+     justify-content:center;
+     text-align: center;
+     height: 100vh;
+     width:100vw;
+     flex-direction: column;
+     background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('/image/photo1.png');
+     color:rgb(244, 253, 0);
+     background-size: cover;
+     background-position: center;
+}
+
+.counter{
+    display:flex;
+    justify-content: center;
+}
+
+.box{
+    padding: 30px;
+}
+
+p{
+    font-size:20px;
+}
+
+#seconds{
+    margin:0;
+}
+
+.newyear{
+    font-size:40px;
+    font-weight: 5px;
+    font-style:italic;
+}
+
+@media(min-width:576px){
+    .newyear{
+        font-size: 60px;
+    }
+    p{
+        font-size: 25px;
+    }
+    .box{
+        font-size: 15px;
+    }
+}
+
+@media(min-width:768px){
+    .newyear{
+        font-size:100px;
+    }
+    p{
+        font-size: 40px;
+    }
+    .box{
+        font-size:25px;
+    }
+}
